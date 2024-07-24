@@ -1,0 +1,56 @@
+body{
+    background-color: beige;
+}
+h2{
+    text-align: center;
+    color: rgba(83, 40, 40, 0.773);
+    text-shadow: 2px 2px 5px greenyellow;
+    
+    
+}
+#panda{
+    width:250px;
+    border: 8px dashed lavender;
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+p{
+    color: rgb(5, 5, 82);
+    border: 1px saddlebrown dashed;
+    
+    
+}
+div.subheader{
+    color: blue;
+    border: 2px salmon solid;
+    text-align: center;
+    font-style: italic;
+    /* курсив */
+    font-weight: bold;
+    /* Жирный шрифт */
+}
+p.intro{
+    border: 1px rgb(60, 255, 0) dashed;
+}
+p.main-text{
+    color: darkblue;
+    font-style: italic;
+    background-color: lavender;
+}
+p.idea{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: line-through rebeccapurple;
+
+}
+div.footer-element{
+    border: 4px solid rgb(5, 5, 82);
+    text-align: center;
+    color: crimson; 
+    font-weight: bold;
+}
