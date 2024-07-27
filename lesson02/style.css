@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(248, 165, 194, 0.362)
+}
+
+p {
+    color: red;
+}
+p.green {
+    color: rgb(19, 253, 19);
+}
+.block-div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 20px; 
+    /* font-size влияет на размер шрифта */
+    text-align: center;
+    margin: 20px;
+    /* margin внешний отступ от границы */
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+.block-div:nth-child(even){
+    background-color: azure;
+}
+p:nth-child(3){
+    color: black;
+}
