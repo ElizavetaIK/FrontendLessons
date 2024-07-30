@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <!-- тег form, для различных форм (логин пароль), для выпадающих списков и т.п. -->
+    <!-- action адрес, куда мы оьправим все данные -->
+    <form action=""method="post">
+    <div>
+        <label for="email_"> Email
+            <!-- ввели id инпута, теги label и input связались -->
+            <input type="email" id="email_" placeholder="введите email"> Lorem, ipsum dolor.
+            <!-- placeholder подсказка для пользователя полупрозрачным цветом  на заднем фоне -->
+            <!-- id уникальный -->
+        </label>
+    </div>
+    <div>
+        <label for=""> Password
+            <input type="password" placeholder="введите пароль" required>
+        </label>
+    </div>
+    <div>
+        Ваш возраст:
+        <div>
+            <!-- input:text -->
+            
+        <!-- name - прописываем что мы подразумеваем под данным значением, логическое значение -->
+        <!-- value - значение -->
+        <input type="radio" name="age" id="age1" value="0-18" tabindex="1">
+        <label for="age1">0-18</label>
+        </div>
+        <div>
+        <input type="radio" name="age" id="age2" value="19-50" tabindex="2">
+        <label for="age2">19-50</label>
+        </div>
+        <div>
+        <input type="radio" name="age" id="age3" value="50+" tabindex="3">
+        <label for="age3">50+</label>
+        </div>
+    </div>
+
+    <div>
+        <input type="color" name="color" id="favorite_color">
+        <label for="favorite_color">Любимый цвет</label>
+    </div>
+    <div>
+        <input type="date" name="birthday" id="birthday">
+        <label for="birthday">Дата рождения</label>
+    </div>
+    <div>
+        <textarea name="text" id="" cols="30" rows="10" maxlength="20"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="range" name="friendsCount" id="friendsCount"
+        min="0" max="500"
+        oninput="this.nextElementSibling.value= this.value">
+        <output></output>
+        <label for="friendsCount">Количество друзей от 0 до 500</label>
+    </div>
+    <div>
+        <label for="">Способ связи с вами
+            <select name="contact" form="contact-form" >
+                <option value="phone">Телефон</option>
+                <option value="email">Email</option>
+                <option selected value="Telegram">Telegram</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Direct">Direct</option>
+            </select>
+        </label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="agree-spam" id="agree1" value="YES">
+        <label for="agree1">Согласны на получение спама?</label>
+    </div>
+    <div>
+        <input checked type="checkbox" name="agree-terms" id="agree2" value="YES">
+        <label for="agree2">Согласны на условия обработки данных?</label>
+    </div>
+    <div>
+        <input type="checkbox" name="agree-rent" id="agree3" value="YES">
+        <label for="agree3">Согласны на аренду вашей квартиры?</label>
+    </div>
+    
+    <div>
+        <p>
+            <input type="file" name="userPhoto" id="">
+        </p>
+    </div>
+    <br>
+    <div>
+        <p>
+            Действие
+        </p>
+        <button type="submit">Отправить</button>
+        <Button type="reset">Сбросить</Button>
+    </div>
+
+
+    </form>
+</body>
+</html>

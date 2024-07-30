@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос</title>
+</head>
+<body>
+    <form action="post">
+        <div>
+            <label for="name_">Имя
+                <input type="name" id="name_" placeholder="Введите имя">
+            </label>
+        </div>
+        <br>
+        <div>
+            <div>
+                <input type="radio" name="gender" id="gender1" value="М">
+                <label for="gender1">М</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender2" value="Ж">
+                    <label for="gender2">Ж</label>
+                </div>
+        </div>
+        <br>
+        <div>
+            <p>Выберите ваши увлечения</p>
+        <div>
+            <input type="checkbox" name="sport" id="sport" value="YES">
+            <label for="sport">Спорт</label>
+        </div>
+        <div>
+            <input type="checkbox" name="reading" id="reading" value="YES">
+            <label for="sport">Чтение</label>
+        </div>
+        <div>
+            <input type="checkbox" name="dance" id="dance" value="YES">
+            <label for="sport">Танцы</label>
+        </div>
+        <div>
+            <input type="checkbox" name="music" id="music" value="YES">
+            <label for="sport">Музыка</label>
+        </div>
+    </div>
+    <br>
+    <div>
+        <label for="">Возраст
+            <select name="age" form="age" >
+                <option value="0-18">0-18</option>
+                <option value="19-35">19-35</option>
+                <option value="36-50">36-50</option>
+                <option value="51-70">51-70</option>
+                <option value="71+">71+</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <p>
+            Действие
+        </p>
+        <button type="submit">Отправить</button>
+        <Button type="reset">Сбросить заполнение</Button>
+    </div>
+
+
+    </form>
+    
+</body>
+</html>
