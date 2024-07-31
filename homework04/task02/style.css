@@ -1,0 +1,33 @@
+h1{
+    color: rgb(1, 64, 10);
+    margin-left: 130px;
+}
+.who{
+    border: 2px seagreen solid;
+    width: 250px;
+    margin-left: 100px;
+  
+}
+.interested{
+    border: 2px seagreen solid;
+    width: 250px;
+    margin-left: 100px;
+}
+body{
+    background-color:rgb(226, 255, 252);
+}
+p{
+    color: rgb(1, 64, 10);
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    width: 250px;
+    margin-left: 100px;
+    border-radius:30%;
+    border: 5px darkolivegreen solid;
+}
+.button{
+    margin-left: 140px;
+
+}

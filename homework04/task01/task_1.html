@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_task1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Санте</title>
+</head>
+<body>
+    <img src="santa-claus.webp" alt="Santa">
+    <h1>ПИСЬМО САНТЕ</h1>
+    <form action="registration.html">
+        <p>Дорогой санта,</p>
+        <div>
+            <label for="name_"> меня зовут
+                <input type="name" id="name_" placeholder="введи свое имя">,
+            </label>
+            <label for="email_">  мой email   
+                <input type="email" id="email_" placeholder="введи свой email">
+            </label>
+        </div>
+     <div>
+        <br>
+            <div>
+            <input type="radio" name="gender" id="boy" value="Мальчик">
+            <label for="boy">Мальчик</label>
+            </div>
+            <div>
+            <input type="radio" name="gender" id="girl" value="Девочка">
+            <label for="boy">Девочка</label>
+            </div>
+     </div>   
+     <br>
+     <div>
+        <input type="date" name="birthday" id="birthday">
+        <label for="birthday">Дата рождения</label>
+    </div>
+    <br>
+     <div>
+        <label for="">я живу в
+            <select name="country" form="country-form" >
+              <option value="Russia">Россия</option>
+              <option value="Ukraine">Украина</option>
+              <option value="Germany">Германия</option>
+              <option value="USA">США</option>
+              <option value="Canada">Канада</option>
+              <option value="France">Франция</option>
+              <option value="Italy">Италия</option>
+              <option value="Spain">Испания</option>
+              <option value="Turkey">Турция</option>
+              <option value="Geogia">Грузия</option>
+              <option value="another">Укажи в комментарии</option>
+            </select>
+            <label for="another_country"> 
+                <input type="text" id="another_country" placeholder="страна">
+        </label>
+    </div>
+        <div>
+        <p>Выбери подарок от Санты</p>
+                  <div>
+                <input type="radio" name="toy" id="car" value="машинка">
+                    <label for="car">Машинка</label>
+            </div>
+            <div>
+                <input type="radio" name="toy" id="doll" value="кукла">
+                    <label for="doll">Кукла</label>
+            </div>
+            <div>
+                <input type="radio" name="toy" id="teddy" value="мишка">
+                    <label for="teddy">Мишка</label>
+                </div>
+     </div>   
+     <br>
+    <div>
+        <input type="color" name="color" id="toy-color">
+        <label for="toy-color">Выбери цвет новой игрушки</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Отправить</button>
+        <Button type="reset">Сбросить</Button>
+    </div>
+    </form>
+</body>
+</html>
